@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lang Apex Study Center</title>
+    <!-- Simple design framework -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="bg-white border-b border-gray-200">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold text-blue-600">LANG APEX</span>
+            <div class="space-x-4 text-sm font-semibold">
+                <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
+                <a href="#courses" class="text-gray-600 hover:text-blue-600">Courses</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION WITH LARGE BACKGROUND PICTURE -->
+    <header class="relative bg-gray-900 text-white py-24 text-center">
+        <!-- Background Image Placement -->
+        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80" alt="Students studying" class="absolute inset-0 w-full h-full object-cover opacity-30">
+        
+        <!-- Text over the image -->
+        <div class="relative max-w-2xl mx-auto px-4">
+            <h1 class="text-4xl font-bold mb-4">Learn English in Namangan</h1>
+            <p class="text-lg text-gray-300 mb-6">Build your future with expert teachers and modern classrooms at Lang Apex.</p>
+            <a href="https://student.langapex.uz/" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3 rounded">
+                Open Student Portal
+            </a>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION WITH A PICTURE SIDE-BY-SIDE -->
+    <section id="about" class="py-16 max-w-4xl mx-auto px-4">
+        <div class="space-y-8 md:space-y-0 md:flex md:items-center md:space-x-8">
+            <div class="md:w-1/2">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">About Our Center</h2>
+                <p class="text-gray-600 leading-relaxed mb-4">
+                    Lang Apex is part of the Lifelong Academy network. We help students gain true confidence in speaking, writing, and understanding English naturally.
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    Our lessons are active, friendly, and tailored perfectly for school students, teenagers, and IELTS candidates.
+                </p>
+            </div>
+            <div class="md:w-1/2">
+                <!-- About Section Picture Placeholder -->
+                <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=600&q=80" alt="Classroom learning environment" class="w-full h-64 object-cover rounded shadow">
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES SECTION WITH CARD PICTURES -->
+    <section id="courses" class="py-16 bg-white border-y border-gray-200">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">Our Programs</h2>
+            
+            <div class="grid sm:grid-cols-3 gap-6">
+                <!-- Course 1 -->
+                <div class="border border-gray-200 rounded overflow-hidden shadow-sm bg-gray-50">
+                    <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=400&q=80" alt="General English Class" class="w-full h-40 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg text-blue-600">General English</h3>
+                        <p class="text-sm text-gray-600 mt-1">Master grammar and build fluent conversation fast.</p>
+                    </div>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="border border-gray-200 rounded overflow-hidden shadow-sm bg-gray-50">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=400&q=80" alt="IELTS exam preparation" class="w-full h-40 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg text-blue-600">IELTS Tracks</h3>
+                        <p class="text-sm text-gray-600 mt-1">Intensive preparation designed to secure high scores.</p>
+                    </div>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="border border-gray-200 rounded overflow-hidden shadow-sm bg-gray-50">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=400&q=80" alt="Kids teaching" class="w-full h-40 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg text-blue-600">Kids Academy</h3>
+                        <p class="text-sm text-gray-600 mt-1">Fun, active language games for students aged 7-13.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTAL ROUTER LINKS -->
+    <section class="py-12 text-center max-w-4xl mx-auto px-4">
+        <h3 class="text-lg font-bold text-gray-900 mb-4">Quick Online Portals</h3>
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-4 text-sm font-semibold">
+            <a href="https://student.langapex.uz/" target="_blank" class="text-blue-600 hover:underline">Student Dashboard</a>
+            <span class="hidden sm:inline text-gray-300">|</span>
+            <a href="https://school.langapex.uz/suggestions" target="_blank" class="text-blue-600 hover:underline">Leave a Complaint / Suggestion</a>
+            <span class="hidden sm:inline text-gray-300">|</span>
+            <a href="https://www.langapex.org/" target="_blank" class="text-blue-600 hover:underline">Alumni Network</a>
+        </div>
+    </section>
+
+    <!-- FOOTER / CONTACT INFO -->
+    <footer id="contact" class="bg-gray-900 text-gray-400 py-12">
+        <div class="max-w-4xl mx-auto px-4 grid sm:grid-cols-2 gap-8 text-sm">
+            <div>
+                <h4 class="text-white font-bold text-base mb-3">LANG APEX CAMPUS</h4>
+                <p class="leading-relaxed">
+                    81 Torakorgan Street, Namangan, Uzbekistan<br>
+                    <span class="text-xs text-gray-500">(Near the Alisher Navoiy Theater)</span>
+                </p>
+                <p class="mt-2"><strong>Hours:</strong> Mon — Sun, 09:00 - 20:00</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-base mb-3">GET IN TOUCH</h4>
+                <p>Phone: <a href="tel:+998953305509" class="text-blue-400 hover:underline">+998 (95) 330-55-09</a></p>
+                <p class="mt-1">Email: <a href="mailto:admin@langapex.uz" class="text-blue-400 hover:underline">admin@langapex.uz</a></p>
+                <p class="text-xs text-gray-600 mt-6">&copy; 2026 Lang Apex. Part of Lifelong Academy.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
